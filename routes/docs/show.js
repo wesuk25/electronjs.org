@@ -1,6 +1,5 @@
 const i18n = require('../../lib/i18n')
 const getIds = require('get-crowdin-file-ids')
-const { findKey } = require('lodash')
 
 module.exports = (req, res, next) => {
   const doc = i18n.docs[req.language][req.path]
